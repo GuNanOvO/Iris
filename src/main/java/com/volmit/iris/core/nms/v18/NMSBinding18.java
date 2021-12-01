@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.volmit.iris.core.nms.v17_1;
+package com.volmit.iris.core.nms.v18;
 
 import com.volmit.iris.Iris;
 import com.volmit.iris.core.nms.INMSBinding;
@@ -79,7 +79,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class NMSBinding17_1 implements INMSBinding {
+public class NMSBinding18 implements INMSBinding {
     private final BlockData AIR = Material.AIR.createBlockData();
     private final KMap<Biome, Object> baseBiomeCache = new KMap<>();
     private final AtomicCache<MCAIdMapper<IBlockData>> registryCache = new AtomicCache<>();
