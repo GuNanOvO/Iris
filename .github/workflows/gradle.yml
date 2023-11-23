@@ -31,7 +31,7 @@ jobs:
     - name: Set up Gradle
       run: ./gradlew setup
     - name: Build with Gradle
-      run: ./gradlew iris
+      run: ./gradlew build
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
