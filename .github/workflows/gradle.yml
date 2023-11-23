@@ -31,10 +31,10 @@ jobs:
     - name: Set up Gradle
       run: ./gradlew setup
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew iris
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: jar
-        path: Iris/build
+        path: ./build
       
